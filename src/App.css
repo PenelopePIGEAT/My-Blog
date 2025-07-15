@@ -1,0 +1,99 @@
+/* Style du projet */
+
+/* Global*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header + Navigation Menu */
+
+.Header,
+.navigation-menu {
+  background: linear-gradient(135deg, #7b4de8, #4a89f3);
+  color: white;
+}
+
+/* Header */
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 19px;
+  font-style: italic;
+}
+/* Navigation Menu*/
+
+.navigation-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 32px;
+  font-family: Arial, sans-serif;
+}
+
+/* Liens de navigation*/
+
+.navigation-left a,
+.navigation-right a {
+  color: white;
+  text-decoration: none;
+  margin-right: 24px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.navigation-left a:last-child {
+  margin-right: 0;
+}
+
+.navigation-menu a {
+  transition: background-color 0.3s ease;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.navigation-menu a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+}
+
+/* Main*/
+
+body {
+  background-color: #f9f9f9;
+}
+
+/*Footer*/
+
+.Footer {
+  background: linear-gradient(135deg, #7b4de8, #4a89f3);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.Footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.Footer a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+}
