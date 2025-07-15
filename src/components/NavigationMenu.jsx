@@ -4,7 +4,7 @@ const NavigationMenu = () => {
   return (
     <nav className="navigation-menu">
       <div className="navigation-left">
-        <Link to="/">Acceuil</Link>
+        <Link to="/">Accueil</Link>
         <Link to="/projets">Projets</Link>
         <Link to="/apropos">A propos</Link>
       </div>

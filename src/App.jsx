@@ -14,7 +14,7 @@ function App() {
       <Header
         name={"Développeur Web Full Stack"}
         baseline={
-          "Je conçois des sites internets et des applications modernes, rapides et bien pensés."
+          "Je conçois des sites internets et des applications mobiles modernes, rapides et bien pensés."
         }
       />
       <NavigationMenu />
