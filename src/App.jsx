@@ -11,12 +11,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <Router>
-      <Header
-        name={"Développeur Web Full Stack"}
-        baseline={
-          "Je conçois des sites internets et des applications mobiles modernes, rapides et bien pensés."
-        }
-      />
+      <Header />
       <NavigationMenu />
       <Routes>
         <Route path="/" element={<Accueil />} />
